@@ -38,7 +38,7 @@ Load the Y index register with the data in the memory location specified
 ## CPAX
 Accumulator to X register
 ## CPAY
-Accumulator to X register
+Accumulator to Y register
 ## CPXA
 X register to Accumulator
 ## CPYA
