@@ -134,8 +134,8 @@ class Window {
                     }
                 }
 
-                "LDX"-> accamulator.value = accamulator.x
-                "LDY"-> accamulator.value = accamulator.y
+                "LDX"-> accamulator.x = getCell(words[1], memory, accamulator)
+                "LDY"-> accamulator.y = getCell(words[1], memory, accamulator)
             }
             i++
         }
