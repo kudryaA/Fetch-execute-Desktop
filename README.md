@@ -42,7 +42,7 @@ Accumulator to X register
 ## CPXA
 X register to Accumulator
 ## CPYA
-X register to Accumulator
+Y register to Accumulator
 
 # Other opportunities
 Support *, #, @. But their combination is not supported.
