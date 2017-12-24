@@ -21,7 +21,7 @@ Output data from device nn
 Halt program execution
 ## BRA _
 Branch always to nn
-# BRLT
+## BRLT
 Branch to nn if the accumulator is less then zero
 ## BRLE
 Branch to nn if the accumulator is equal to or less then zero
