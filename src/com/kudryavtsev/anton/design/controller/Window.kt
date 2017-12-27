@@ -46,7 +46,15 @@ class Window {
         commands.removeIf {it.contains("DATA")}
 
         var i = 0
+        val timeStart = System.currentTimeMillis()
         while (commands[i] != "HLT") {
+            val time = System.currentTimeMillis() - timeStart
+
+            if (time >= 300000) {
+                textConsole!!.text = "Error... Endless loop"
+                break
+            }
+
             commands[i] = commands[i].substringBefore("//")
 
             while (commands[i].contains("  ")) {

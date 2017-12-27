@@ -12,9 +12,9 @@ class Accumulator {
     }
 
     override fun toString(): String {
-        return "x=${Integer.toHexString(x)}\n" +
-                "y=${Integer.toHexString(y)}\n" +
-                "value=${Integer.toHexString(value)}"
+        return "X=${Integer.toHexString(x)}\n" +
+                "Y=${Integer.toHexString(y)}\n" +
+                "A=${Integer.toHexString(value)}"
     }
 
 

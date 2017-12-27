@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<TabPane fx:controller="com.kudryavtsev.anton.design.controller.Window" prefHeight="372.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<TabPane prefHeight="372.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kudryavtsev.anton.design.controller.Window">
    <tabs>
       <Tab text="Code">
          <content>
@@ -58,7 +58,7 @@
                               </AnchorPane>
                            </content>
                         </TitledPane>
-                        <TitledPane animated="false" text="Accumulator">
+                        <TitledPane animated="false" text="Registers">
                            <content>
                               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                                  <children>
