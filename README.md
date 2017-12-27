@@ -1,4 +1,4 @@
-# Fetch-execute
+# Fetch execute
 This program is an alternative of simulator(had written on Shockwave)
 # About
 The simulator allows you to run your own programs and watch the processor's internal registers as the code is executed.
